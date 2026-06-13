@@ -217,7 +217,16 @@ a:hover { text-decoration: underline; }
     gap: 18px;
     align-items: start;
     margin: 14px 0;
-    padding: 6px 0;
+    padding: 14px 16px;
+    background: rgba(157, 0, 255, 0.04);
+    border: 1px solid rgba(157, 0, 255, 0.22);
+    border-radius: 8px;
+    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.publication-container:hover {
+    background: rgba(157, 0, 255, 0.08);
+    border-color: rgba(157, 0, 255, 0.45);
+    box-shadow: 0 2px 10px rgba(157, 0, 255, 0.12);
 }
 .publication-container img,
 .publication-container .pub-thumb-empty {
