@@ -237,9 +237,8 @@ a:hover { text-decoration: underline; }
     border: 1px solid #e6e6e6;
     border-radius: 4px;
     display: block;
-    object-fit: cover;
-    object-position: center;
-    background: #fafafa;
+    object-fit: fill;
+    background: #ffffff;
     box-sizing: border-box;
 }
 .publication-container .pub-thumb-empty {
