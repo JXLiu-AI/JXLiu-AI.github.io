@@ -277,6 +277,10 @@ a:hover { text-decoration: underline; }
     white-space: nowrap;
     vertical-align: 1px;
 }
+.pub-impact-highlight {
+    color: #9D00FF;
+    font-weight: 700;
+}
 .pub-text .me {
     color: #9D00FF;
     font-weight: 700;
