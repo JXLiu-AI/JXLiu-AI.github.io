@@ -263,6 +263,20 @@ a:hover { text-decoration: underline; }
     font-size: 14.5px;
     line-height: 1.6;
 }
+.pub-impact {
+    display: inline-block;
+    margin-left: 3px;
+    padding: 1px 7px;
+    border-radius: 3px;
+    background: #efe9f5;
+    color: #67517d;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0;
+    white-space: nowrap;
+    vertical-align: 1px;
+}
 .pub-text .me {
     color: #9D00FF;
     font-weight: 700;
