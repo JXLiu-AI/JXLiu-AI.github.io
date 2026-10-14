@@ -269,17 +269,20 @@ a:hover { text-decoration: underline; }
     padding: 1px 7px;
     border-radius: 3px;
     background: #efe9f5;
-    color: #67517d;
+    color: #9D00FF;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.6;
     letter-spacing: 0;
     white-space: nowrap;
     vertical-align: 1px;
 }
-.pub-impact-highlight {
+.pub-impact-highlight,
+.impact-factor {
     color: #9D00FF;
     font-weight: 700;
+    font-style: normal;
+    white-space: nowrap;
 }
 .pub-text .me {
     color: #9D00FF;
